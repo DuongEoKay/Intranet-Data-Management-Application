@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Admin PH1\CaiDatAudit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin PH1\DanhSachUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin PH1\KiemTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin PH1\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin PH1\NhatKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin PH1\PhanQuyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin PH1\QuanLiRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin PH1\SuaUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TruongKhoa\TKH_PhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TruongKhoa\TKH_NhanSu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TruongKhoa\TKH_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NhanVien\NV_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="reuse\TTCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="reuse\ThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="reuse\Course.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="reuse\XemDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="reuse\display\ThemDangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="reuse\SinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiangVien\GV_PhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiangVien\GV_DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiangVien\GV_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaoVu\GVU_ThemSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaoVu\GVU_PhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaoVu\GVU_HocPhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaoVu\GVU_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaoVu\GVU_QLSV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GiaoVu\GVU_DonVi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SinhVien\SV_HocPhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SinhVien\SV_TTCN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SinhVien\SV_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TruongDonVi\TDV_PhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TruongDonVi\TDV_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="TruongKhoa\TDV_ThemNhanVien.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="reuse\display\PhanCong.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GiaoVu\GVU_ThemSinhVien.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Admin PH1\Oracle.DataAccess.Common.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Admin PH1\Oracle.ManagedDataAccess.Client.Configuration.Section.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>
